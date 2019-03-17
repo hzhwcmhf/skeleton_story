@@ -4,6 +4,7 @@ import json
 
 from cotk.dataloader import SingleTurnDialog
 from cotk.wordvector import WordVector, Glove
+import cotk_contrib
 
 from utils import debug, try_cache, cuda_init, Storage
 from seq2seq import Seq2seq
