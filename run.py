@@ -28,7 +28,7 @@ def run():
 		help="Epoch for trainning. Default: 100")
 	parser.add_argument('--wvclass', type=str, default=None,
 		help="Wordvector class, none for not using pretrained wordvec. Default: None")
-	parser.add_argument('--wvpath', type=str, default=None,
+	parser.add_argument('--wvpath', type=str, default="./wordvec",
 		help="Directory for pretrained wordvector. Default: ./wordvec")
 
 	parser.add_argument('--out_dir', type=str, default="./output",
